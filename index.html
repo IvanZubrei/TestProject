@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Иван Зубрей">
+  <link rel="stylesheet" href="style.css">
+  <title>Тестовое задание</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__top">
+      <div class="container">
+        <nav class="menu">
+          <div class="city">
+            <div class="city__icon">
+              <img class="city__icon-img" src="./img/imgContent/MarkerLogo.svg" alt="MarkerLogoImage">
+            </div>
+            <div class="city__top-box city__dropbtn">
+              <div class="city__caption">Моя локация</div>
+              <div class="city__arrow">
+                <img class="city__arrow-img" src="./img/imgContent/Checkbox.svg" alt="CheckboxLogoImage">
+              </div>
+              <div class="city__dropdown">
+                <div class="city__dropdown-content">
+                  <input class="city__input" type="text" placeholder="Search...">
+                  <a class="city__dropdown-link" href="#">Брест</a>
+                  <a class="city__dropdown-link" href="#">Витебск</a>
+                  <a class="city__dropdown-link" href="#">Гомель</a>
+                  <a class="city__dropdown-link" href="#">Гродно</a>
+                  <a class="city__dropdown-link" href="#">Могилев</a>
+                  <a class="city__dropdown-link" href="#">Минск</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <ul class="menu__list">
+            <li class="menu__list-item menu__margin-right">
+              <a href="#" class="menu__link">Главная</a>
+            </li>
+            <li class="menu__list-item menu__margin-right">
+              <a href="#myResume" class="menu__link">Резюме</a>
+            </li>
+            <li class="menu__list-item menu__margin-right">
+              <a href="#myPortfolio" class="menu__link">Портфолио</a>
+            </li>
+            <li class="menu__list-item ">
+              <a href="#myContacts" class="menu__link">Контакты</a>
+            </li>
+          </ul>
+          <div class="burger__menu">
+            <input id="burger__menu-toggle" type="checkbox" />
+            <label class="burger__menu-btn" for="burger__menu-toggle">
+              <span></span>
+            </label>
+            <ul class="burger__menubox">
+              <li><a class="burger__menu-item" href="#">Главная</a></li>
+              <li><a class="burger__menu-item" href="#myResume">Резюме</a></li>
+              <li><a class="burger__menu-item" href="#mobilMyPortfolio">Портфолио</a></li>
+              <li><a class="burger__menu-item" href="#myContacts">Контакты</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <div class="header__content">
+      <div class="header__container">
+        <div class="nav-content">
+          <img class="nav-content__img" src="./img/imgContent/Header-bg.svg" alt="LogoImage">
+          <div class="nav-content__block">
+            <h1 class="nav-content__title">Тестовое задание разработанное непосредственно для JS From Zero To Hero 2023
+            </h1>
+            <p class="nav-content__description">Учебный проект</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <section id="myResume" class="resume">
+    <div class="container">
+      <div class="resume__container">
+        <div class="resume__info">
+          <img class="resume__avatar" src="./img/imgContent/Avatar.png" alt="Иван Зубрей">
+          <div class="resume__info-text">
+            <h2 class="resume__title">Иван Зубрей</h2>
+            <h3 class="resume__header-text">Начинающий Frontend-разработчик</h3>
+            <p class="resume__text">Я изучил основы html, css, javascript, react и дальше совершенствую свои навыки
+              frontend. Дополнительно изучаю по онлайн курсам английский язык</p>
+          </div>
+        </div>
+        <div class="resume__social">
+          <h2 class="resume__social-header">Мои социальные сети</h2>
+          <div class="resume__btn-mobile">
+            <button class="resume__social-btn resume__social-btn-hover">
+              <a class="resume__social-link" href="https://instagram.com/zubreiivan" target="_blank">Instagram</a>
+            </button>
+            <button class="resume__social-btn resume__social-btn-hover">
+              <a class="resume__social-link" href="https://vk.com/id_ivan_vladimirovich" target="_blank">VK</a>
+            </button>
+            <button class="resume__social-btn resume__social-btn-hover">
+              <a class="resume__social-link" href="https://t.me/IvanZubrei" target="_blank">Telegram</a>
+            </button>
+            <button class="resume__social-btn resume__social-btn-hover">
+              <a class="resume__social-link" href="https://www.linkedin.com/in/zubrei-ivan/"
+                target="_blank">Linkedin</a>
+            </button>
+          </div>
+        </div>
+        <div class="resume__hobby">
+          <h2 class="resume__hobby-header">Мои хобби</h2>
+          <div class="resume__hobby-card">
+            <img class="resume__hobby-img" src="./img/imgContent/Volleyball.png" alt="VolleyballImage">
+            <div class="resume__hobby-text">Волейбол</div>
+          </div>
+          <div class="resume__hobby-card">
+            <img class="resume__hobby-img" src="./img/imgContent/Beekeeping.jpg" alt="BeekeepingImage">
+            <div class="resume__hobby-text">Пчеловодство</div>
+          </div>
+          <div class="resume__hobby-card">
+            <img class="resume__hobby-img" src="./img/imgContent/Fishing.png" alt="FishingImage">
+            <div class="resume__hobby-text">Рыболовство</div>
+          </div>
+          <div class="resume__hobby-card">
+            <img class="resume__hobby-img" src="./img/imgContent/Travel.png" alt="TravelImage">
+            <div class="resume__hobby-text">Путешествия</div>
+          </div>
+          <div class="resume__hobby-card">
+            <img class="resume__hobby-img" src="./img/imgContent/Repair.jpg" alt="RepairImage">
+            <div class="resume__hobby-text">Мелкий ремонт своего автомобиля</div>
+          </div>
+        </div>
+        <div class="resume__work-experience">
+          <h2 class="resume__title">Опыт работы</h2>
+          <div class="resume__grid">
+            <div class="resume__grid-item">ЛМЗ-Универсал</div>
+            <div class="resume__grid-item">Инженер-конструктор</div>
+            <div class="resume__grid-item resume__border">2012-2015</div>
+            <div class="resume__grid-item">Россия</div>
+            <div class="resume__grid-item">Водитель</div>
+            <div class="resume__grid-item resume__border">2015-2017</div>
+            <div class="resume__grid-item">Щебеночный завод "Глушкевичи"</div>
+            <div class="resume__grid-item">Горный мастер</div>
+            <div class="resume__grid-item resume__border">2017-2018</div>
+            <div class="resume__grid-item">Primum</div>
+            <div class="resume__grid-item">Слесарь по ремонту грузовых автомобилей</div>
+            <div class="resume__grid-item resume__border">2018-2018</div>
+            <div class="resume__grid-item">Лотос</div>
+            <div class="resume__grid-item">Мастер горный</div>
+            <div class="resume__grid-item resume__border">2019-2019</div>
+            <div class="resume__grid-item">Пчеловодство</div>
+            <div class="resume__grid-item">Пчеловод</div>
+            <div class="resume__grid-item resume__border">2019</div>
+            <div class="resume__grid-item">It Overone</div>
+            <div class="resume__grid-item">Студент</div>
+            <div class="resume__grid-item resume__border">2022-2022</div>
+            <div class="resume__grid-item">Фриланс</div>
+            <div class="resume__grid-item">Самозанятый</div>
+            <div class="resume__grid-item resume__border">2022</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="container">
+    <div id="myPortfolio" class="slider">
+      <h2 class="slider__title">Мои учебные проекты</h2>
+      <div class="slider__container-hidden">
+        <div class="slider__container">
+          <img class="slider__slide" src="./img/sliderImg/1.png" alt="">
+          <img class="slider__slide" src="./img/sliderImg/2.png" alt="">
+          <img class="slider__slide" src="./img/sliderImg/3.png" alt="">
+          <img class="slider__slide" src="./img/sliderImg/4.png" alt="">
+          <img class="slider__slide" src="./img/sliderImg/5.png" alt="">
+          <img class="slider__slide" src="./img/sliderImg/6.png" alt="">
+        </div>
+      </div>
+      <img class="slider__arrow slider__arrow-left" src="./img/sliderImg/left-arrow.png" alt="">
+      <img class="slider__arrow slider__arrow-right" src="./img/sliderImg/right-arrow.png" alt="">
+    </div>
+    <div id="mobilMyPortfolio" class="slider-mobil">
+      <h2 class="slider__title">Мои учебные проекты</h2>
+      <div class="slider__container-hidden-mobil">
+        <div class="slider__container-mobil">
+          <img class="slider__slide-mobil" src="./img/sliderImg/1.png" alt="">
+          <img class="slider__slide-mobil" src="./img/sliderImg/2.png" alt="">
+          <img class="slider__slide-mobil" src="./img/sliderImg/3.png" alt="">
+          <img class="slider__slide-mobil" src="./img/sliderImg/4.png" alt="">
+          <img class="slider__slide-mobil" src="./img/sliderImg/5.png" alt="">
+          <img class="slider__slide-mobil" src="./img/sliderImg/6.png" alt="">
+        </div>
+      </div>
+      <img class="slider__arrow-mobil slider__arrow-left-mobil" src="./img/sliderImg/left-arrow.png" alt="">
+      <img class="slider__arrow-mobil slider__arrow-right-mobil" src="./img/sliderImg/right-arrow.png" alt="">
+    </div>
+  </section>
+  <section id="myContacts" class="contacts">
+    <div class="container">
+      <h2 class="contacts__title">Мои контакты</h2>
+      <div class="contacts__email-phone">
+        <p class="contacts__text">Телефон: +375298610600</p>
+        <p class="contacts__text">Email: zubreiivan@gmail.com</p>
+      </div>
+      <div class="contacts__social">
+        <p class="contacts__social-text">Социальные сети:</p>
+        <div class="contacts__social-links">
+          <a class="contacts__social-link" href="https://vk.com/id_ivan_vladimirovich" target="_blank"><img
+              class="contacts__social-img" src="./img/imgContent/Vk.png" alt="VkImage"></a>
+          <a class="contacts__social-link" href="https://instagram.com/zubreiivan" target="_blank"><img
+              class="contacts__social-img" src="./img/imgContent/Instagram.png" alt="InstagramImage"></a>
+          <a class="contacts__social-link" href="https://t.me/IvanZubrei" target="_blank"><img
+              class="contacts__social-img" src="./img/imgContent/Telegram.png" alt="TelegramImage"></a>
+          <a class="contacts__social-link" href="https://www.linkedin.com/in/zubrei-ivan" target="_blank"><img
+              class="contacts__social-img" src="./img/imgContent/Linkedin.png" alt="LinkedinImage"></a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="footer">
+    <p class="footer__text">Январь, 2023</p>
+  </footer>
+  <script src="./script.js"></script>
+</body>
+
+</html>
