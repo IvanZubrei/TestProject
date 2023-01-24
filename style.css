@@ -460,8 +460,17 @@ body {
   margin: 25px 0;
 }
 
-.contacts__text {
+.contacts__link {
+  display: block; 
+  width: 250px; 
+  text-decoration: none;
   font-size: var(--font-size-18);
+  color: #1D1818;
+  padding: 5px 0;
+}
+
+.contacts__link:hover {
+  text-decoration: underline;
 }
 
 .contacts__social {
